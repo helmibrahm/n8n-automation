@@ -1,0 +1,5 @@
+flowchart TB
+    H["Ubuntu guest on Hyper-V"] --> D["Docker on the personal lab host"]
+    D --> N["n8n"]
+    D --> A["Two automation helpers"]
+    D --> B["Separate FastAPI backend"]

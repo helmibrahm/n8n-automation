@@ -1,0 +1,10 @@
+flowchart TB
+    A["Start manually"] --> B["Read and filter spreadsheet rows"]
+    B --> C["Look up work items"]
+    C --> D{"Matching item found?"}
+    D -->|yes| E["Reuse the work item reference"]
+    D -->|no| F["Create the work item where configured"]
+    E --> G["Combine work item and row context"]
+    F --> G
+    G --> H["Call helpers and link work items"]
+    H --> I["Merge selected results and update rows"]

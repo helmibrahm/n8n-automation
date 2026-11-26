@@ -1,0 +1,25 @@
+# Keep runtime configuration, credentials, and real n8n artifacts out of Git.
+.env
+.env.*
+*.env
+*.env.*
+!*.env.example
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+*.sql
+*.dump
+*.sqlite*
+*.log
+.n8n/
+private/
+credentials/
+exports/
+executions/
+backups/
+
+# Documentation-only portfolio: do not store workflow exports here.
+*.json

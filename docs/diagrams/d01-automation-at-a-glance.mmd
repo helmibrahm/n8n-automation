@@ -1,0 +1,5 @@
+flowchart LR
+    O["DevOps operator"] -->|manual start| N["n8n"]
+    N <-->|register| S["Google Sheets"]
+    N -->|work items| P["OpenProject"]
+    N -->|helpers| H["FastAPI integrations"]

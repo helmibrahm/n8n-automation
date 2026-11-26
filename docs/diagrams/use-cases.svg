@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="395" viewBox="0 0 760 395" role="img" aria-labelledby="title desc">
+<title id="title">UML use cases for deployment support automation</title>
+<desc id="desc">The DevOps operator starts a batch and reviews register outcomes. Google Sheets supports register updates, OpenProject supports work items, and custom APIs support channel and folder work.</desc>
+<rect width="760" height="395" rx="12" fill="#f8fafc"/>
+<rect x="175" y="22" width="388" height="354" rx="12" fill="#eff6ff" stroke="#64748b"/>
+<g font-family="system-ui,sans-serif" text-anchor="middle" fill="#172554">
+<text x="369" y="55" font-size="18" font-weight="700">Deployment support automation</text>
+<path d="M107 110L225 100" stroke="#64748b" stroke-width="2" fill="none"/>
+<path d="M107 110L225 160" stroke="#64748b" stroke-width="2" fill="none"/>
+<path d="M584 220L515 220" stroke="#64748b" stroke-width="2" fill="none"/>
+<path d="M584 280L515 280" stroke="#64748b" stroke-width="2" fill="none"/>
+<path d="M584 340L515 340" stroke="#64748b" stroke-width="2" fill="none"/>
+<circle cx="90" cy="92" r="6" fill="none" stroke="#334155" stroke-width="2"/>
+<path d="M90 98v19m-13 -12h26m-13 12l-8 11m8 -11l8 11" fill="none" stroke="#334155" stroke-width="2"/>
+<text x="90" y="148" font-size="15" font-weight="650">DevOps operator</text>
+<circle cx="603" cy="206" r="6" fill="none" stroke="#334155" stroke-width="2"/>
+<path d="M603 212v19m-13 -12h26m-13 12l-8 11m8 -11l8 11" fill="none" stroke="#334155" stroke-width="2"/>
+<text x="686" y="225" font-size="15" font-weight="650">Google Sheets</text>
+<circle cx="603" cy="266" r="6" fill="none" stroke="#334155" stroke-width="2"/>
+<path d="M603 272v19m-13 -12h26m-13 12l-8 11m8 -11l8 11" fill="none" stroke="#334155" stroke-width="2"/>
+<text x="686" y="285" font-size="15" font-weight="650">OpenProject</text>
+<circle cx="603" cy="326" r="6" fill="none" stroke="#334155" stroke-width="2"/>
+<path d="M603 332v19m-13 -12h26m-13 12l-8 11m8 -11l8 11" fill="none" stroke="#334155" stroke-width="2"/>
+<text x="686" y="345" font-size="15" font-weight="650">Custom APIs</text>
+<ellipse cx="370" cy="100" rx="145" ry="22" fill="#fff" stroke="#1d4ed8"/>
+<text x="370" y="105" font-size="15">Start a batch</text>
+<ellipse cx="370" cy="160" rx="145" ry="22" fill="#fff" stroke="#1d4ed8"/>
+<text x="370" y="165" font-size="15">Review register outcomes</text>
+<ellipse cx="370" cy="220" rx="145" ry="22" fill="#fff" stroke="#1d4ed8"/>
+<text x="370" y="225" font-size="15">Read and update register</text>
+<ellipse cx="370" cy="280" rx="145" ry="22" fill="#fff" stroke="#1d4ed8"/>
+<text x="370" y="285" font-size="15">Find or link work items</text>
+<ellipse cx="370" cy="340" rx="145" ry="22" fill="#fff" stroke="#1d4ed8"/>
+<text x="370" y="345" font-size="15">Request channel or folder work</text>
+</g>
+</svg>

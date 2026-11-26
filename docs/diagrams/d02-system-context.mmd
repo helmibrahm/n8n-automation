@@ -1,0 +1,7 @@
+flowchart TB
+    O["DevOps operator"] -->|manual start| N["Deployment support workflow"]
+    N <-->|deployment register| S["Google Sheets"]
+    N <-->|work tracking| P["OpenProject"]
+    N -->|request integrated actions| H["Custom integrations"]
+    H --> T["Telegram"]
+    H --> F["Nextcloud files and folders"]

@@ -1,0 +1,10 @@
+# Synthetic documentation record; does not configure a service or workflow.
+example_only: true
+record_status: unverified-example
+caller_alias: example-caller
+callee_alias: example-service
+purpose: unknown
+interface_category: unknown
+authentication_category: unknown
+retry_policy: unknown
+data_classification: unknown

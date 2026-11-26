@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="611" height="27" viewBox="0 0 611 27" role="img" aria-labelledby="badge-title">
+<title id="badge-title">n8n, Google Sheets, OpenProject, Nextcloud WebDAV, Telegram and FastAPI</title>
+<g font-family="system-ui,sans-serif" font-size="12" font-weight="650" text-anchor="middle" fill="#fff">
+  <rect x="0" y="1" width="56" height="25" rx="5" fill="#9f1239"/><text x="28" y="18">n8n</text>
+  <rect x="62" y="1" width="115" height="25" rx="5" fill="#166534"/><text x="119.5" y="18">Google Sheets</text>
+  <rect x="183" y="1" width="105" height="25" rx="5" fill="#1e40af"/><text x="235.5" y="18">OpenProject</text>
+  <rect x="294" y="1" width="142" height="25" rx="5" fill="#155e75"/><text x="365" y="18">Nextcloud WebDAV</text>
+  <rect x="442" y="1" width="86" height="25" rx="5" fill="#075985"/><text x="485" y="18">Telegram</text>
+  <rect x="534" y="1" width="77" height="25" rx="5" fill="#115e59"/><text x="572.5" y="18">FastAPI</text>
+</g>
+</svg>

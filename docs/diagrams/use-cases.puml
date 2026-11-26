@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+skinparam shadowing false
+actor "DevOps operator" as Op
+rectangle "Deployment support automation" {
+  usecase "Start a batch" as Start
+  usecase "Review register outcomes" as Review
+  usecase "Read and update register" as Sync
+  usecase "Find or link work items" as Track
+  usecase "Request channel or folder work" as Help
+}
+actor "Google Sheets" as S
+actor "OpenProject" as O
+actor "Custom APIs" as H
+Op -- Start
+Op -- Review
+Sync -- S
+Track -- O
+Help -- H
+@enduml

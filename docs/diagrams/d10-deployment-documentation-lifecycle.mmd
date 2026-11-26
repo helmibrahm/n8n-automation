@@ -1,0 +1,5 @@
+flowchart TB
+    S["Deployment input in register"] --> T["Find or prepare OpenProject work items"]
+    T --> F["Request document-folder preparation"]
+    F --> U["Write selected references and status back"]
+    U --> H["Operator reviews the handover record"]

@@ -1,0 +1,8 @@
+flowchart TB
+    I["Deployment row and row match key"] --> F["Normalize values and select eligible rows"]
+    F --> C["Prepared row context"]
+    C --> W["Work item lookups and references"]
+    C --> H["Helper request context"]
+    W --> M["Merge selected references and results"]
+    H --> M
+    M --> S["Match the original row and update columns"]

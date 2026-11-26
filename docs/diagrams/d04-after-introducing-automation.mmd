@@ -1,0 +1,7 @@
+flowchart TB
+    P["Operator prepares deployment inputs"] --> M["Operator handles infrastructure and application changes"]
+    P --> T["Operator starts n8n manually"]
+    T --> A["n8n coordinates tasks, channel and document preparation"]
+    A --> W["Write selected results back to the register"]
+    M --> R["Operator reviews deployment and handover"]
+    W --> R

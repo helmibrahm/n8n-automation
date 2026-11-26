@@ -1,0 +1,11 @@
+# Synthetic training configuration. Do not deploy it to either host.
+services:
+  n8n:
+    image: "${N8N_IMAGE:?Set an approved pinned image reference only in a local copy}"
+    expose:
+      - "5678"
+    volumes:
+      - example-n8n-data:/home/node/.n8n
+
+volumes:
+  example-n8n-data:

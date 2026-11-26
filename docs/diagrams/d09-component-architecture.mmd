@@ -1,0 +1,7 @@
+flowchart TB
+    M["n8n manual trigger"] --> X["n8n selection, branches and merges"]
+    X <-->|read and update rows| S["Google Sheets connector"]
+    X -->|lookup, create and relate tasks| O["OpenProject HTTP requests"]
+    X -->|service-specific requests| A["Custom FastAPI integrations"]
+    A --> C["Channel and document operations"]
+    A --> V["Server metadata and records"]

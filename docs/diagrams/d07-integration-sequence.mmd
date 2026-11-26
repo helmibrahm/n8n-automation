@@ -1,0 +1,16 @@
+sequenceDiagram
+    participant N as n8n
+    participant S as Sheets
+    participant O as OpenProject
+    participant H as Custom APIs
+    Note over N: Manual start
+    N->>S: Read deployment rows
+    S-->>N: Return row data
+    N->>O: Find work items
+    opt Required item is missing
+        N->>O: Create work item
+    end
+    O-->>N: Return task references
+    N->>H: Request channel and folder work
+    H-->>N: Return helper results
+    N->>S: Write selected results
