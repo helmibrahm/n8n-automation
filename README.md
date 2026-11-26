@@ -1,3 +1,4 @@
+<img width="1920" height="1032" alt="n8n" src="https://github.com/user-attachments/assets/83af2262-36d8-4684-bc6f-31f59a0ccede" />
 # Deployment Operations Automation
 
 **An n8n case study in speeding up deployment coordination and documentation.**
